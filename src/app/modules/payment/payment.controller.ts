@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { NextFunction, Request, Response } from 'express';
 import { PaymentService } from './payment.service';
 

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import express from 'express';
 import { paymentRoutes } from '../modules/payment/payment.route';
 
@@ -6,7 +5,7 @@ const router = express.Router();
 
 const moduleRoutes = [
   {
-    path: 'payment',
+    path: '/payment',
     routes: paymentRoutes
   }
 ];
