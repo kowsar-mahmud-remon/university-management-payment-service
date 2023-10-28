@@ -1,7 +1,7 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/apiError';
-import config from '../../../config';
 import axios from 'axios';
+import config from '../../../config';
 
 const initPayment = async (payload: any) => {
   try {
